@@ -1,64 +1,133 @@
+# MSIBxMinerva
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**MSIBxMinerva** adalah proyek magang yang dikembangkan menggunakan framework Laravel dan Bootstrap. Proyek ini bertujuan untuk membangun fondasi aplikasi web modern yang responsif, scalable, dan mudah dikembangkan. Dengan memadukan arsitektur MVC dari Laravel dan desain antarmuka Bootstrap, MSIBxMinerva menawarkan solusi pengembangan web yang terstruktur, efisien, serta mendukung integrasi teknologi front-end dan back-end secara optimal.
 
-## About Laravel
+Aplikasi ini diharapkan menjadi rujukan terbaik dalam membangun produk digital di lingkungan profesional, baik untuk kebutuhan internal organisasi, pendidikan, maupun pengembangan solusi teknologi secara kolaboratif.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## ✨ Fitur Utama
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **Struktur Modular Laravel:** Memanfaatkan kekuatan Laravel untuk routing, MVC, dan pengelolaan data.
+- **UI Responsif Bootstrap:** Desain antarmuka modern dan mobile-friendly dengan Bootstrap.
+- **Template Blade:** Menggunakan Blade untuk templating dinamis yang efisien.
+- **Integrasi SCSS & CSS:** Styling fleksibel dan mudah dikustomisasi.
+- **Dukungan JavaScript:** Interaksi dinamis dan fitur client-side.
+- **Best Practice Pengembangan Web:** Struktur kode rapi, mudah dipelihara, dan scalable.
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🛠️ Teknologi yang Digunakan
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg" alt="Laravel" width="50"/><br/>
+      <b>Laravel</b><br/>
+      <sub>Framework utama aplikasi</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" width="50"/><br/>
+      <b>Bootstrap</b><br/>
+      <sub>Front-end responsif</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blade/blade-original.svg" alt="Blade" width="40"/><br/>
+      <b>Blade</b><br/>
+      <sub>Template engine Laravel</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" width="40"/><br/>
+      <b>PHP</b><br/>
+      <sub>Bahasa pemrograman backend</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40"/><br/>
+      <b>JavaScript</b><br/>
+      <sub>Interaksi dinamis</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40"/><br/>
+      <b>CSS/SCSS</b><br/>
+      <sub>Styling web</sub>
+    </td>
+    <td align="center">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="40"/><br/>
+      <b>HTML</b><br/>
+      <sub>Struktur halaman web</sub>
+    </td>
+  </tr>
+</table>
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## 🚀 Instalasi & Penggunaan
 
-### Premium Partners
+1. **Clone repository ini:**
+    ```bash
+    git clone https://github.com/agusbayu13/MSIBxMinerva.git
+    ```
+2. **Masuk ke folder proyek:**
+    ```bash
+    cd MSIBxMinerva
+    ```
+3. **Install dependencies Laravel:**
+    ```bash
+    composer install
+    ```
+4. **Install dependencies frontend (opsional):**
+    ```bash
+    npm install && npm run dev
+    ```
+5. **Salin file .env dan konfigurasi database:**
+    ```bash
+    cp .env.example .env
+    # Edit file .env sesuai database Anda
+    ```
+6. **Generate key aplikasi:**
+    ```bash
+    php artisan key:generate
+    ```
+7. **Migrate database (jika ada):**
+    ```bash
+    php artisan migrate
+    ```
+8. **Jalankan aplikasi:**
+    ```bash
+    php artisan serve
+    ```
+9. **Akses aplikasi melalui browser:**
+    ```
+    http://localhost:8000
+    ```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+---
 
-## Contributing
+## 🤝 Kontribusi
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Kontribusi sangat terbuka! Silakan fork repo, buat branch baru, dan ajukan pull request untuk fitur atau perbaikan.
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## ⚖️ Lisensi
 
-## Security Vulnerabilities
+Proyek ini menggunakan lisensi MIT. Silakan gunakan dan modifikasi sesuai kebutuhan.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
-## License
+## 📢 Dukungan
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Pengembang: [agusbayu13](https://github.com/agusbayu13)
+
+---
+
+## ⭐ Jangan Lupa Berikan Bintang!
+
+Jika Anda merasa proyek ini bermanfaat, jangan lupa untuk memberikan **bintang** pada repository ini di GitHub!  
+Dukungan Anda sangat berarti untuk pengembangan dan perbaikan proyek ke depannya.
+
+---
+
+**MSIBxMinerva** adalah referensi profesional untuk pengembangan aplikasi web berbasis Laravel & Bootstrap yang siap dikembangkan sesuai kebutuhan magang dan industri.
